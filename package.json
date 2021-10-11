@@ -1,0 +1,24 @@
+{
+  "name": "transreport_be",
+  "version": "1.0.0",
+  "description": "the simple backend for the transreport application",
+  "main": "index.js",
+  "engines": {
+    "node": "v14.17.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "hieu.nguyen3@sotatek.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.9",
+    "nodemon": "^2.0.13"
+  }
+}
